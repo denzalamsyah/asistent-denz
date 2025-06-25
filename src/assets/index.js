@@ -1,4 +1,6 @@
 import brainwave from "./brainwave.svg";
+import think from "./think.svg";
+import bots from "./bots.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -77,6 +79,8 @@ import twitter from "./socials/twitter.svg";
 
 export {
   brainwave,
+  think,
+  bots,
   check,
   check2,
   loading1,
