@@ -1,37 +1,6 @@
 import { useState } from "react";
 import { loading } from "../assets";
-
-// Langsung pakai API KEY dari environment
-const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
-
-const askGemini = async (promptText) => {
-  try {
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          contents: [
-            {
-              parts: [{ text: promptText }],
-            },
-          ],
-        }),
-      }
-    );
-
-    const data = await response.json();
-    return (
-      data?.candidates?.[0]?.content?.parts?.[0]?.text || "Gagal dapat jawaban"
-    );
-  } catch (error) {
-    console.error("Gemini Error:", error);
-    return "Terjadi kesalahan saat menghubungi AI.";
-  }
-};
+import { askGemini } from "../services/gemini";
 
 const Generating = ({ className }) => {
   const [prompt, setPrompt] = useState("");
