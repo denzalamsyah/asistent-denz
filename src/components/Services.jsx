@@ -10,15 +10,15 @@ import {
 } from "./design/Services";
 
 // import Generating from "./Generating";
-import GeneratingImages from "../components/gemini/GenerateImages";
+// import GeneratingImages from "../components/gemini/GenerateImages";
 
 const Services = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="AI generatif dibuat untuk para Kreator."
+          text="Denz Think membuka potensi aplikasi bertenaga AI"
         />
 
         <div className="relative">
@@ -36,7 +36,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Smartest AI</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Denz Think membuka potensi aplikasi bertenaga AI
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -52,7 +52,7 @@ const Services = () => {
             </div>
 
             {/* <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" /> */}
-            <GeneratingImages className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
+            {/* <GeneratingImages className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" /> */}
           </div>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
@@ -68,10 +68,10 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">Pengeditan foto</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                  Sempurnakan foto Anda secara otomatis menggunakan fitur
+                  penyuntingan foto aplikasi AI kami. Cobalah sekarang!
                 </p>
               </div>
 
@@ -80,10 +80,10 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Pembuatan video</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  Mesin pembuat foto dan video AI paling canggih di dunia. Apa
+                  yang akan Anda ciptakan?
                 </p>
 
                 <ul className="flex items-center justify-between">

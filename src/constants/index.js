@@ -39,22 +39,22 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Fitur",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Harga",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Cara Penggunaan",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Peta Jalan",
     url: "#roadmap",
   },
   {
@@ -78,9 +78,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Pembuatan foto",
+  "Foto ditingkatkan",
+  "Integrasi yang Sempurna",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,55 +94,55 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
+    title: "Pengenalan suara",
+    text: "Memungkinkan chatbot memahami dan menanggapi perintah suara, sehingga memudahkan pengguna berinteraksi dengan aplikasi tanpa menggunakan tangan.",
+    date: "Juni 2025",
+    status: "selesai",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Gamifikasi",
+    text: "Tambahkan elemen seperti permainan, seperti lencana atau papan peringkat, untuk memberi insentif kepada pengguna agar lebih sering terlibat dengan chatbot.",
+    date: "Juni 2025",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    title: "Kustomisasi chatbot",
+    text: "Memungkinkan pengguna menyesuaikan tampilan dan perilaku chatbot, menjadikannya lebih menarik dan menyenangkan untuk berinteraksi.",
+    date: "Juni 2025",
+    status: "selesai",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Integrasi dengan API",
+    text: "Izinkan chatbot mengakses sumber data eksternal, seperti API cuaca atau API berita, untuk memberikan rekomendasi yang lebih relevan.",
+    date: "Juni 2025",
     status: "progress",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Dengan otomatisasi cerdas dan keamanan terbaik, ini adalah solusi sempurna bagi tim yang ingin bekerja lebih cerdas.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Integrasi yang Sempurna",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Otomasi Cerdas",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Keamanan Terbaik",
   },
 ];
 
@@ -209,34 +209,35 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    description: "Chatbot AI, rekomendasi yang dipersonalisasi",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Chatbot AI yang dapat memahami pertanyaan Anda",
+      "Rekomendasi yang dipersonalisasi berdasarkan preferensi Anda",
+      "Kemampuan untuk menjelajahi aplikasi dan fiturnya tanpa biaya apa pun",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    description:
+      "Chatbot AI tingkat lanjut, dukungan prioritas, dasbor analitik",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Chatbot AI canggih yang dapat memahami pertanyaan kompleks",
+      "Dasbor analitik untuk melacak percakapan Anda",
+      "Dukungan prioritas untuk menyelesaikan masalah dengan cepat",
     ],
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description: "Chatbot AI khusus, analitik tingkat lanjut, akun khusus",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Chatbot AI yang dapat memahami pertanyaan Anda",
+      "Rekomendasi yang dipersonalisasi berdasarkan preferensi Anda",
+      "Kemampuan untuk menjelajahi aplikasi dan fiturnya tanpa biaya apa pun",
     ],
   },
 ];
