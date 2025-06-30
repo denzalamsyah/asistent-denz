@@ -1,6 +1,7 @@
 import brainwave from "./brainwave.svg";
 import think from "./think.svg";
 import bots from "./bots.svg";
+import google from "./google.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -81,6 +82,7 @@ export {
   brainwave,
   think,
   bots,
+  google,
   check,
   check2,
   loading1,

@@ -27,7 +27,7 @@
 
 ## <a name="introduction">🤖 Pendahuluan</a>
 
-Brainwave - Situs web UI/UX modern, yang dikembangkan menggunakan React.js dan Tailwind CSS, merupakan contoh prinsip UI/UX modern. Desainnya yang ramping, animasi yang lancar, dan pengalaman pengguna secara keseluruhan menetapkan standar yang tinggi, yang berfungsi sebagai referensi atau inspirasi untuk aplikasi atau situs web modern di masa mendatang secara umum.
+Denz Think - Situs web UI/UX modern, yang dikembangkan menggunakan React.js dan Tailwind CSS, merupakan contoh prinsip UI/UX modern. Desainnya yang ramping, animasi yang lancar, dan pengalaman pengguna secara keseluruhan menetapkan standar yang tinggi, yang berfungsi sebagai referensi atau inspirasi untuk aplikasi atau situs web modern di masa mendatang secara umum.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 

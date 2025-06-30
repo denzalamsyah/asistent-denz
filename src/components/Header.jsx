@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { bots } from "../assets";
@@ -11,7 +11,7 @@ import { useState } from "react";
 const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
-
+  const navigate = useNavigate();
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
@@ -29,6 +29,10 @@ const Header = () => {
     setOpenNavigation(false);
   };
 
+  const handleNavigate = (url) => (e) => {
+    e.preventDefault();
+    navigate(url);
+  };
   return (
     <div
       className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
@@ -74,12 +78,12 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
+          onClick={handleNavigate("/register")}
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" onClick={handleNavigate("/login")}>
           Sign in
         </Button>
 
