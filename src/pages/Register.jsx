@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { heroBackground } from "../assets";
 import google from "../assets/google.svg"; // pastikan ini benar
 import Section from "../components/Section";
+import { WiDirectionLeft } from "react-icons/wi";
+
 
 const Register = () => {
   return (
@@ -27,9 +29,14 @@ const Register = () => {
       </h1>
       {/* Register Form */}
       <form className="relative mx-auto w-full max-w-[300px] md:max-w-sm border bg-blue-950 bg-opacity-50 backdrop-blur p-8 rounded-lg shadow-lg">
-        <h2 className="text-sm md:text-lg font-semibold mb-6 text-center text-white">
-          Create an Account
-        </h2>
+        <div className="mb-6 grid grid-cols-4">
+          <Link to="/" >
+            <WiDirectionLeft className="text-3xl"/>
+          </Link>
+          <h2 className="text-sm md:text-lg col-span-3 font-semibold text-white">
+            Create an Account
+          </h2>
+        </div>
 
         <div className="mb-4">
           <label className="block mb-2 text-xs text-white">Email</label>
