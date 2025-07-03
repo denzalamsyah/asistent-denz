@@ -1,6 +1,7 @@
 import { heroBackground } from "../assets";
 import Section from "../components/Section";
 import { google } from "../assets";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -60,17 +61,17 @@ const Login = () => {
         <div className="text-[10px] text-center">
           <p>
             Don{"`"}t have an account?{" "}
-            <a className="text-blue-500 underline" href="/register">
+            <Link className="text-blue-500 underline" to="/register">
               Sign up
-            </a>
+            </Link>
           </p>
         </div>
         <div className="mt-2 mb-4 text-[10px] text-center">
           <p>
             Forgot password?{" "}
-            <a className="text-blue-500 underline" href="/change-password">
+            <Link className="text-blue-500 underline" to="/change-password">
               Reset it
-            </a>
+            </Link>
           </p>
         </div>
 

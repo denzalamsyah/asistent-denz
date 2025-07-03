@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { heroBackground } from "../assets";
 import google from "../assets/google.svg"; // pastikan ini benar
 import Section from "../components/Section";
@@ -68,16 +69,16 @@ const Register = () => {
 
         <p className="text-[10px] text-center text-white mb-2">
           Already have an account?{" "}
-          <a className="text-blue-400 underline" href="/login">
+          <Link className="text-blue-400 underline" to="/login">
             Login
-          </a>
+          </Link>
         </p>
 
         <p className="text-[10px] text-center text-white mb-4">
           Forgot password?{" "}
-          <a className="text-blue-400 underline" href="/change-password">
+          <Link className="text-blue-400 underline" to="/change-password">
             Reset it
-          </a>
+          </Link>
         </p>
 
         <button
